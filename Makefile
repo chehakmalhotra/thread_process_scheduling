@@ -1,10 +1,9 @@
-1: 1.c
-	@gcc 1.c -o 1 -pthread 
-run: 1
-	@rm -f data.txt
-	@./1
-plot: data.txt
-	@python pltll.py
-data.txt: 1
-	@rm -f data.txt
-	@./1
+12:12.c
+	@gcc 12.c -o 12
+run: 12
+	@rm -f mata.txt
+	@./12
+makeExecutable: bash1.sh bashy2.sh bashy3.sh
+	@chmod +x bashy1.sh
+	@chmod +x bashy2.sh
+	@chmod +x bashy3.sh
